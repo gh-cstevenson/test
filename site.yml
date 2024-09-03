@@ -7,4 +7,4 @@
 
     - name: Debug
       ansible.builtin.debug:
-        msg: "Var is {{ test-title }} and environment is {{ environment }}"
+        msg: "Var is {{ example_var }} and environment is {{ environment }}"
